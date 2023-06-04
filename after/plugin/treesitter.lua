@@ -11,7 +11,7 @@ require'nvim-treesitter.configs'.setup {
       "vim", 
       "vimdoc", 
       "query",
-      "zig",
+      --"zig",
       "yaml",
       "json",
       "bicep"
