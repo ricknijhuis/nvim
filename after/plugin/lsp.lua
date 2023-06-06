@@ -43,12 +43,13 @@ require('mason-lspconfig').setup({
     'bicep',
     'azure_pipelines_ls',
     'clangd',
+    'csharp_ls',
     'cmake',
     'jsonls',
     'tsserver',
     'lua_ls',
     'yamlls',
-    --'zls',
+    'zls',
   }
 })
 

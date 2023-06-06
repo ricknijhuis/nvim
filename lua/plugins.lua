@@ -24,6 +24,7 @@ return require('packer').startup(function(use)
     }})
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
+    use('ziglang/zig.vim')
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v2.x',
