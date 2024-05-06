@@ -10,7 +10,13 @@ return {
 		})
 	end,
 	keys = {
-        { "<leader>-", "<CMD>Oil<CR>", desc = "open parent directory" },
-    },
-    lazy = false,
+		{ "<leader>-", "<CMD>Oil<CR>", desc = "open parent directory" },
+	},
+	lazy = false,
+	view_options = {
+		show_hidden = true,
+		is_always_hidden = function(name, bufnr)
+			return false
+		end,
+	},
 }

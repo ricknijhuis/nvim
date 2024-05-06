@@ -1,5 +1,7 @@
 -- Harpoon provides way to tag files and switch quickly between them
 -- see: https://github.com/ThePrimeagen/harpoon/tree/harpoon2
+-- test
+--test
 local function toggle_telescope(harpoon_files)
 	local conf = require("telescope.config").values
 	local file_paths = {}
