@@ -53,3 +53,14 @@ pretty minimal config so you might want to adjust to any personal needs.
 - NORMAL <leader>gf = find files in git repo(respects gitignore)
 - NORMAL <leader>ps = find files by Grep
 - NORMAL <leader>u = undo and open undo tree
+- INSERT <C-b> = scroll docs up
+- INSERT <C-f> = scroll docs down
+- INSERT <C-Space> = complete snippet
+- INSERT <CR> = confirm snippet
+- INSERT <Tab> = select next item
+- INSERT <Up> = select prev item
+- INSERT <Down> = select next item
+- INSERT <C-n> select next and insert
+- INSERT <C-p> select prev and insert
+- INSERT <C-y> confirm snippet
+- INSERT <C-e> abort
