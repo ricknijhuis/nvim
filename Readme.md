@@ -23,3 +23,33 @@ Welcome to my personal NVIM setup.
 # Currently included packages
 This configuration contains some packages to improve my workflow, it might not work for you, as far as I know this is a 
 pretty minimal config so you might want to adjust to any personal needs.
+- harpoon (file marking and switching)
+- none-ls (linting)
+- telescope (fuzzy finder)
+- telescope-ui-select (lsp dropdown using telescope)
+- telescope-undo (undo view through telescope)
+- treesitter (syntax highlighting)
+- mason (lsp/linter/formatter package management)
+- mason-lsp-config (bridge between mason and lspconfig)
+- lsp-config (provides lsp configurations)
+- oil (filesystem editing like a default buffer)
+- rosepine (theme)
+
+# Current keybinds only
+- NORMAL <leader> = " "
+- NORMAL <leader>a = add file to harpoon list
+- NORMAL <leader>t = harpoon quick menu
+- NORMAL <leader>1-5 = harpoon go to file [1-9]
+- NORMAL <leader>j = harpoon to next file
+- NORMAL <leader>k = harpoon to prev file
+- NORMAL gD = goto declaration
+- NORMAL gd = goto definition
+- NORMAL gi = goto implementation
+- NORMAL K = show lsp hover info
+- NORMAL <leader>ca = code action
+- NORMAL <leader>cf = code format
+- NORMAL <leader>- = open parent directory(goto file explorer)
+- NORMAL <leader>ff = find files
+- NORMAL <leader>gf = find files in git repo(respects gitignore)
+- NORMAL <leader>ps = find files by Grep
+- NORMAL <leader>u = undo and open undo tree
