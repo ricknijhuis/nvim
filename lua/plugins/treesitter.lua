@@ -3,6 +3,7 @@ return {
     build = ':TSUpdate',
     config = function ()
         local configs = require('nvim-treesitter.configs')
+        require 'nvim-treesitter.install'.compilers = { "zig" }
         configs.setup({
             ensure_installed = {
                 'c',
@@ -11,8 +12,6 @@ return {
                 'cpp',
                 'css',
                 'diff',
-                'glsl',
-                'hlsl',
                 'html',
                 'javascript',
                 'json',
