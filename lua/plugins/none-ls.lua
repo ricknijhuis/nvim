@@ -7,6 +7,7 @@ return {
 				sources = {
 					null_ls.builtins.formatting.stylua,
                     null_ls.builtins.formatting.prettier,
+                    null_ls.builtins.formatting.csharpier,
                     null_ls.builtins.diagnostics.eslint
 				},
 			})
@@ -24,7 +25,7 @@ return {
 		},
 		config = function()
 			require("mason-null-ls").setup({
-				ensure_installed = { "stylua", "prettier", "eslint" },
+				ensure_installed = { "stylua", "prettier", "eslint", "csharpier" },
 			})
 		end,
 	},

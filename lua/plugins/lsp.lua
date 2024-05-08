@@ -14,7 +14,8 @@ return {
 				ensure_installed = {
 					"lua_ls",
 					"zls",
-                    "tsserver"
+					"tsserver",
+					"csharp_ls",
 				},
 			})
 		end,
@@ -32,12 +33,15 @@ return {
 				},
 				capabilities = capabilities,
 			})
+			lspconfig.csharp_ls.setup({
+				capabilities = capabilities,
+			})
 			lspconfig.zls.setup({
 				capabilities = capabilities,
 			})
-            lspconfig.tsserver.setup({
-                capabilities = capabilities,
-            })
+			lspconfig.tsserver.setup({
+				capabilities = capabilities,
+			})
 		end,
 		keys = {
 			{ "gD", vim.lsp.buf.declaration, desc = "goto declaration" },
