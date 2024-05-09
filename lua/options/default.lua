@@ -1,5 +1,6 @@
 local o = vim.o
 local g = vim.g
+local utils = require("utils")
 
 g.mapleader = " "
 g.maplocalleader = " "
